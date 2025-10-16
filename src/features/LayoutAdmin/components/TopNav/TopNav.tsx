@@ -27,6 +27,11 @@ const topNavStyles = css({
   height: '70px',
   borderBottom: '1px solid',
   borderColor: 'white.70',
+  backgroundColor: 'white',
+  position: 'sticky',
+  top: 0,
+  zIndex: 10,
+  flexShrink: 0,
 });
 const dashboardTextStyles = css({
   color: 'black.60',
@@ -35,4 +40,6 @@ const dashboardTextStyles = css({
 });
 const breadcrumbs = css({
   height: '24px',
+  flexShrink: 0,
+  backgroundColor: 'white.50',
 });
